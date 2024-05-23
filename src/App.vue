@@ -6,6 +6,7 @@
     <FooterSection/>
     <h1 class="text-4xl font-bold text-blue-600">
       ¡Hola desde Vue 2 con TailwindCSS!
+      HOLA VALE
     </h1>
   </div>
 </template>
