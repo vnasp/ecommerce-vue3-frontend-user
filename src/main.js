@@ -10,15 +10,14 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 /* import font awesome icon component */
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-/* import specific icons */
-import { faSatelliteDish } from '@fortawesome/free-solid-svg-icons'
-import { faWallet } from '@fortawesome/free-solid-svg-icons'
-import { faPercent } from '@fortawesome/free-solid-svg-icons'
-import { faComment } from '@fortawesome/free-solid-svg-icons'
-import { faListCheck } from '@fortawesome/free-solid-svg-icons'
+/* import specific solid icons */
+import { faSatelliteDish, faWallet, faPercent, faComment, faListCheck, faBagShopping, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
+
+/* import specific regular icons */
+import { faUser, faHeart } from '@fortawesome/free-regular-svg-icons'
 
 /* add icons to the library */
-library.add(faSatelliteDish, faWallet, faPercent, faComment, faListCheck)
+library.add(faSatelliteDish, faWallet, faPercent, faComment, faListCheck, faUser, faHeart, faBagShopping, faMagnifyingGlass)
 
 /* add font awesome icon component */
 Vue.component('font-awesome-icon', FontAwesomeIcon)
