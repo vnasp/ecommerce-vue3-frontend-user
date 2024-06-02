@@ -3,6 +3,10 @@ export const content = [
   "./src/**/*.{vue,js,ts,jsx,tsx}"
 ];
 export const theme = {
-  extend: {},
+  extend: {
+    fontSize: {
+      'xs': '13px',
+    },
+  },
 };
 export const plugins = [];
