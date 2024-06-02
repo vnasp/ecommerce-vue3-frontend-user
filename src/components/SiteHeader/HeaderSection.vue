@@ -1,6 +1,6 @@
 <template>
   <div>
-    <TopSection/>
+    <TopSection />
     <NavigationSection />
     <BannerSection />
   </div>
@@ -15,7 +15,8 @@ export default {
   name: 'HeaderSection',
   components: {
     NavigationSection,
-    BannerSection
+    BannerSection,
+    TopSection
   }
 }
 </script>
