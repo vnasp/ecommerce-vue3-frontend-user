@@ -1,7 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 
+body {
+  font-family:'Jost', sans-serif;
+}
 @layer components {
   .h3-feat-card {
     @apply text-xs font-bold mb-1
