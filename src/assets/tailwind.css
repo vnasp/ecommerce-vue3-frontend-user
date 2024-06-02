@@ -6,6 +6,7 @@
 body {
   font-family:'Jost', sans-serif;
 }
+
 @layer components {
   .h3-feat-card {
     @apply text-xs font-bold mb-1
