@@ -9,10 +9,10 @@ body {
 
 @layer components {
   .h3-feat-card {
-    @apply text-xs font-bold mb-1
+    @apply mb-1 text-xs
   }
 
   .p-feat-card {
-    @apply text-xs font-medium text-indigo-100
+    @apply text-indigo-200 text-xs
   }
 }

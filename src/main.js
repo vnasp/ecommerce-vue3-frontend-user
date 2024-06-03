@@ -16,8 +16,11 @@ import { faSatelliteDish, faWallet, faPercent, faComment, faListCheck, faBagShop
 /* import specific regular icons */
 import { faUser, faHeart } from '@fortawesome/free-regular-svg-icons'
 
+/* import specific brand icons */
+import { faFacebookF, faTwitter, faYoutube, faPinterestP, faSkype } from '@fortawesome/free-brands-svg-icons'
+
 /* add icons to the library */
-library.add(faSatelliteDish, faWallet, faPercent, faComment, faListCheck, faUser, faHeart, faBagShopping, faMagnifyingGlass)
+library.add(faSatelliteDish, faWallet, faPercent, faComment, faListCheck, faUser, faHeart, faBagShopping, faMagnifyingGlass, faFacebookF, faTwitter, faYoutube, faPinterestP, faSkype)
 
 /* add font awesome icon component */
 Vue.component('font-awesome-icon', FontAwesomeIcon)
