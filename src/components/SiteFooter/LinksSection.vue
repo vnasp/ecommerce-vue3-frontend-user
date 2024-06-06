@@ -1,7 +1,7 @@
 <template>
-  <section class="flex flex-col lg:flex-row flex-wrap justify-evenly pb-6 px-10">
-    <section class="flex flex-col md:flex-row flex-none md:1/3 lg:w-4/6 justify-center text-sm">
-      <article class="flex-auto md:flex-initial lg:w-4/12 pe-6">
+  <section class="flex flex-col lg:flex-row flex-wrap justify-evenly pb-6 px-20">
+    <section class="flex flex-col md:flex-row flex-none md:1/3 lg:w-8/12 justify-center text-sm">
+      <article class="flex-auto md:w-4/12 pe-3 mb-10">
         <h4 class="uppercase mb-5">let us help you</h4>
         <p class="mb-5 text-indigo-200">If you have any question, please contact us at: <span class="text-lime-600">support@example.com</span></p>
         <div>
@@ -13,7 +13,7 @@
           <font-awesome-icon icon="fa-brands fa-skype" class="me-2" />
         </div>
       </article>
-      <article class="flex-auto md:flex-1 lg:w-5/12 pe-6">
+      <article class="flex-auto md:w-5/12 pe-3 mb-10">
         <h4 class="uppercase mb-5">looking for orfarm?</h4>
         <p class="mb-5 text-indigo-200">68 St. Vicent Place, Glasgow, Greater Newyork NH2012, UK.</p>
         <div class="text-indigo-200">
@@ -22,7 +22,7 @@
           <p>Sunday: <span class="text-white">Close</span></p>
         </div>
       </article>
-      <article class="flex-auto md:flex-initial lg:w-3/12 pe-6">
+      <article class="flex-auto md:w-3/12 pe-3 mb-10">
         <h4 class="uppercase mb-5">hot categories</h4>
         <div>
           <ul>
@@ -35,7 +35,7 @@
         </div>
       </article>
     </section>
-    <NewsletterSection class="flex-none md:w-1/3 lg:w-2/6"/>
+    <NewsletterSection class="flex-none md:w-1/3 lg:w-4/12"/>
   </section>
 </template>
 

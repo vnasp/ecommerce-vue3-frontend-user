@@ -1,6 +1,6 @@
 <template>
-  <section class="flex justify-evenly py-8">
-    <section class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 w-5/6 border-b border-indigo-400 pb-4 text-center text-xs">
+  <section class="flex justify-center py-8">
+    <section class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-x-10 border-b border-indigo-400 pb-4 text-center text-xs">
       <article class="p-4">
         <font-awesome-icon icon="fa-solid fa-satellite-dish" size="lg" class="mb-1"/>
         <h3 class="h3-feat-card">FAST DELIVERY</h3>
