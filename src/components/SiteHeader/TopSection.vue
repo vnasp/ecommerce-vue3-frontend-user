@@ -3,21 +3,21 @@
     <div>Due to the <span class="text-amber-500">COVID-19</span> epidemic, orders may be processed with a slight delay.
     </div>
     <div class="flex flex-row justify-between gap-6">
-      <div class="hover:text-lime-600">
+      <a href="#" class="hover:text-lime-600">
         Store Location
-      </div>
-      <div class="hover:text-lime-600">
+      </a>
+      <a href="#" class="hover:text-lime-600">
         Order Tracking
-      </div>
-      <div class="hover:text-lime-600">
+      </a>
+      <a href="#" class="hover:text-lime-600">
         FAQs
-      </div>
-      <div class="border-s border-indigo-500 ps-4">
+      </a>
+      <a href="#" class="border-s border-indigo-500 ps-4">
         English
-      </div>
-      <div>
+      </a>
+      <a href="#">
         USD
-      </div>
+      </a>
     </div>
   </section>
 </template>
