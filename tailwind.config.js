@@ -7,6 +7,10 @@ export const theme = {
     fontSize: {
       'xs': '13px',
     },
+    colors: {
+      'verde-custom': '#96AE00',
+      'gris-custom': '#F2F2F6',
+    }
   },
 };
 export const plugins = [];
