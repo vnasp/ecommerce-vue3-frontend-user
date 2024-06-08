@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="bg-gris-custom">
     <CategoriesSection />
     <SliderSection />
     <ProductSection />
