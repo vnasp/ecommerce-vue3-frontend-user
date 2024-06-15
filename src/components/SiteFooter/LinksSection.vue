@@ -1,5 +1,5 @@
 <template>
-  <section class="flex flex-col lg:flex-row flex-wrap justify-evenly pb-6 px-20">
+  <section class="flex flex-col lg:flex-row flex-wrap justify-evenly pb-6 px-10 md:px-20">
     <section class="flex flex-col md:flex-row flex-none md:1/3 lg:w-8/12 justify-center text-base">
       <article class="flex-auto md:w-4/12 pe-3 mb-10">
         <h4 class="uppercase mb-5 text-sm font-bold"><Link:mf></Link:mf>Let us help you</h4>
