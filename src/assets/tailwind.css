@@ -8,6 +8,7 @@
 @layer base {
   body {
     font-family: 'Jost', sans-serif;
+    background: #F2F2F6;
   }
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Quicksand', sans-serif;
@@ -69,4 +70,8 @@
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+footer {
+  background: url('./../assets/img/footer_bg.svg');
 }

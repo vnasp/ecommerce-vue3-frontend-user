@@ -16,11 +16,11 @@
     data() {
       return {
         features: [
-          { icon: 'fa-solid fa-satellite-dish', title: 'Fast Delivery', content: 'Across West & East India' },
-          { icon: 'fa-solid fa-wallet', title: 'Safe Payment', content: '100% Secure Payment' },
-          { icon: 'fa-solid fa-percent', title: 'Online Discount', content: 'Add Multi-buy Discount' },
-          { icon: 'fa-solid fa-comment', title: 'Dedicated 24/7 Support', content: 'Dedicated 24/7 Support' },
-          { icon: 'fa-solid fa-list-check', title: 'Curated Items', content: 'From Handpicked Sellers' }
+          { "icon": "fa-solid fa-satellite-dish", "title": "Entrega Rápida", "content": "A todo el país" },
+          { "icon": "fa-solid fa-wallet", "title": "Pago Seguro", "content": "Pago 100% Seguro" },
+          { "icon": "fa-solid fa-percent", "title": "Descuentos", "content": "Añade descuentos por volumen" },
+          { "icon": "fa-solid fa-comment", "title": "Soporte 24/7", "content": "Soporte 24/7 Dedicado" },
+          { "icon": "fa-solid fa-list-check", "title": "Artículos Exclusivos", "content": "De Vendedores Seleccionados" }
         ]
       }
     }

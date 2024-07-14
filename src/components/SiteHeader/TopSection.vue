@@ -1,22 +1,20 @@
 <template>
   <section class="bg-indigo-900 flex flex-row justify-between text-white text-xs px-12 py-2">
-    <div>Due to the <span class="text-amber-500">COVID-19</span> epidemic, orders may be processed with a slight delay.
+    <div>Lorem ipsum dolor <span class="text-amber-500">sit amet</span> consectetur adipisicing elit.
     </div>
     <div class="flex flex-row justify-between gap-6">
       <a href="#" class="hover:text-lime-600">
-        Store Location
+        Locales
       </a>
       <a href="#" class="hover:text-lime-600">
-        Order Tracking
+        Seguimiento
       </a>
-      <a href="#" class="hover:text-lime-600">
-        FAQs
-      </a>
+      <router-link class="hover:text-lime-600" activeClass="active disabled" :to="{ name: 'contact'}">Contacto</router-link>
       <a href="#" class="border-s border-indigo-500 ps-4">
-        English
+        Español
       </a>
       <a href="#">
-        USD
+        CLP
       </a>
     </div>
   </section>

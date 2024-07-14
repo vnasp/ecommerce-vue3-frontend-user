@@ -1,0 +1,26 @@
+[
+  {
+    "imageSrc": "./contenido/slider/slider-bg-1.png",
+    "altText": "Deslizador1",
+    "headerText": "Más vendido de la semana",
+    "title": "Elige tu estilo de vida saludable.",
+    "description": "La presentación importa. Nuestros rollos de verduras vietnamitas frescos se ven bien y saben aún mejor.",
+    "buttonText": "Compra ahora"
+  },
+  {
+    "imageSrc": "./contenido/slider/slider-bg-2.png",
+    "altText": "Deslizador2",
+    "headerText": "Más vendido de la semana",
+    "title": "Miga de avena de pan fresco.",
+    "description": "La presentación importa. Nuestros rollos de verduras vietnamitas frescos se ven bien y saben aún mejor.",
+    "buttonText": "Compra ahora"
+  },
+  {
+    "imageSrc": "./contenido/slider/slider-bg-3.png",
+    "altText": "Deslizador3",
+    "headerText": "Más vendido de la semana",
+    "title": "La mejor frescura saludable.",
+    "description": "La presentación importa. Nuestros rollos de verduras vietnamitas frescos se ven bien y saben aún mejor.",
+    "buttonText": "Compra ahora"
+  }
+]

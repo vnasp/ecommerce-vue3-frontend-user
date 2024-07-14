@@ -1,9 +1,8 @@
 <template>
-  <div id="app">
     <HeaderSection/>
+    <router-view />
     <MainSection/>
     <FooterSection/>
-  </div>
 </template>
 
 <script>
@@ -12,12 +11,15 @@ import HeaderSection from './components/SiteHeader/HeaderSection.vue';
 import MainSection from './components/SiteMain/MainSection.vue';
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HeaderSection, MainSection, FooterSection 
-  }
+    HeaderSection, MainSection, FooterSection,
+  },
 }
 </script>
+<style lang="scss">
+:root {
+  overflow-x: hidden;
+}
 
-<style>
 </style>

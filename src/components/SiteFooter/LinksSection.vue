@@ -2,10 +2,10 @@
   <section class="flex flex-col lg:flex-row flex-wrap justify-evenly pb-6 px-10 md:px-20">
     <section class="flex flex-col md:flex-row flex-none md:1/3 lg:w-8/12 justify-center text-base">
       <article class="flex-auto md:w-4/12 pe-3 mb-10">
-        <h4 class="uppercase mb-5 text-sm font-bold"><Link:mf></Link:mf>Let us help you</h4>
-        <p class="mb-5 text-indigo-200">If you have any question, please contact us at: <span class="text-lime-600">support@example.com</span></p>
+        <h4 class="uppercase mb-5 text-sm font-bold">Déjanos Ayudarte</h4>
+        <p class="mb-5 text-indigo-200">Si tienes dudas, por favor contáctanos: <span class="text-lime-600">soporte@correo.com</span></p>
         <div>
-          <p class="text-indigo-200 mb-1">Social Media:</p>
+          <p class="text-indigo-200 mb-1">Redes Sociales:</p>
           <font-awesome-icon icon="fa-brands fa-facebook-f" class="me-2" />
           <font-awesome-icon icon="fa-brands fa-twitter" class="me-2" />
           <font-awesome-icon icon="fa-brands fa-youtube" class="me-2" />
@@ -14,12 +14,12 @@
         </div>
       </article>
       <article class="flex-auto md:w-5/12 pe-3 mb-10">
-        <h4 class="uppercase mb-5 text-sm font-bold">Looking for orfarm?</h4>
+        <h4 class="uppercase mb-5 text-sm font-bold">¿Buscas una granja?</h4>
         <p class="mb-5 text-indigo-200">68 St. Vicent Place, Glasgow, Greater Newyork NH2012, UK.</p>
         <div class="text-indigo-200">
-          <p>Monday – Friday: <span class="text-white">8:10 AM – 6:10 PM</span></p>
-          <p>Saturday: <span class="text-white">10:10 AM – 06:10 PM</span></p>
-          <p>Sunday: <span class="text-white">Close</span></p>
+          <p>Lunes a Viernes: <span class="text-white">8:10 AM – 6:10 PM</span></p>
+          <p>Sábado: <span class="text-white">10:10 AM – 06:10 PM</span></p>
+          <p>Domingo: <span class="text-white">Cerrado</span></p>
         </div>
       </article>
       <article class="flex-auto md:w-3/12 pe-3 mb-10">

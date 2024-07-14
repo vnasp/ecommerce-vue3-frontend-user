@@ -1,8 +1,8 @@
 <template>
-  <div class="bg-indigo-900 text-white">
+  <footer class="text-white">
     <FeaturesSection />
     <LinksSection />
-  </div>
+  </footer>
 </template>
 
 <script>
