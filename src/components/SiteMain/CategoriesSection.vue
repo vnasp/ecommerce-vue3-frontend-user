@@ -33,21 +33,13 @@ export default {
   methods: {
     ...mapActions(['setCategories', 'setProducts']),
     filterCategory(category) {
-      console.log(`Filtering products by category: ${category}`);
       this.$emit('filter-category', category);
     }
   },
   created() {
-    console.log('Component created');
     this.setCategories()
       .then(() => {
-        console.log('Categories loaded');
         return this.setProducts();
-      })
-      .then(() => {
-        console.log('Products loaded');
-        // Forzar la evaluación del getter categoriesWithCount
-        console.log('Categories with count:', this.categoriesWithCount);
       })
       .catch(error => console.error('Error loading data:', error));
   }

@@ -2,7 +2,7 @@ import axios from "axios";
 
 const getBanners = async () => {
   try {
-    let response = await axios.get(`/contenido/banners.json`);
+    let response = await axios.get(`./contenido/banners.json`);
     return response.data;
   } catch (error) {
     alert(

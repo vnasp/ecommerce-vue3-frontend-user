@@ -1,9 +1,9 @@
 [
-  { "id": 1, "name": "Vegetales", "img": "/contenido/categories/category-1.jpg"},
-  { "id": 2, "name": "Frutas Frescas", "img": "/contenido/categories/category-2.jpg"},
-  { "id": 3, "name": "Bebidas de Frutas", "img": "/contenido/categories/category-3.jpg"},
-  { "id": 4, "name": "Panadería Fresca", "img": "/contenido/categories/category-4.jpg"},
-  { "id": 5, "name": "Galletas y Snacks", "img": "/contenido/categories/category-5.jpg"},
-  { "id": 6, "name": "Mariscos", "img": "/contenido/categories/category-6.jpg"},
-  { "id": 7, "name": "Leche Fresca", "img": "/contenido/categories/category-7.jpg"}
+  { "id": 1, "name": "Vegetales", "img": "./contenido/categories/category-1.jpg"},
+  { "id": 2, "name": "Frutas Frescas", "img": "./contenido/categories/category-2.jpg"},
+  { "id": 3, "name": "Bebidas de Frutas", "img": "./contenido/categories/category-3.jpg"},
+  { "id": 4, "name": "Panadería Fresca", "img": "./contenido/categories/category-4.jpg"},
+  { "id": 5, "name": "Galletas y Snacks", "img": "./contenido/categories/category-5.jpg"},
+  { "id": 6, "name": "Mariscos", "img": "./contenido/categories/category-6.jpg"},
+  { "id": 7, "name": "Leche Fresca", "img": "./contenido/categories/category-7.jpg"}
 ]

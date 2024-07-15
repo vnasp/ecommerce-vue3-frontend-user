@@ -15,6 +15,10 @@
           class="absolute top-1 right-1 inline-flex items-center justify-center h-5 w-5 text-white transform translate-x-1/2 -translate-y-1/2 bg-red-500 rounded-full">{{
             icon.badge }}</span>
       </a>
+      <router-link :to="{ name: 'cart'}" class="rounded-full flex justify-center items-center h-10 w-10 relative bg-amber-100">
+        <font-awesome-icon icon="fa-solid fa-bag-shopping" size="sm" />
+        <span :style="{ fontSize: '11px' }" class="absolute top-1 right-1 inline-flex items-center justify-center h-5 w-5 text-white transform translate-x-1/2 -translate-y-1/2 bg-red-500 rounded-full">5</span>
+      </router-link>
     </div>
   </section>
 </template>
@@ -52,11 +56,6 @@ export default {
           bgClass: "bg-cyan-50",
           icon: "fa-regular fa-heart"
         },
-        {
-          bgClass: "bg-amber-100",
-          icon: "fa-solid fa-bag-shopping",
-          badge: 5
-        }
       ]
     };
   },

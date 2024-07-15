@@ -3,7 +3,7 @@ import axios from "axios";
 // Obtener productos a mostrar
 export const getProducts = async () => {
   try {
-    let response = await axios.get(`/contenido/productos.json`);
+    let response = await axios.get(`./contenido/productos.json`);
     return response.data;
   } catch (error) {
     alert(
@@ -17,7 +17,7 @@ export const getProducts = async () => {
 // Obtener categorías a mostrar
 export const getCategories = async () => {
   try {
-    let response = await axios.get(`/contenido/categorias.json`);
+    let response = await axios.get(`./contenido/categorias.json`);
     return response.data;
   } catch (error) {
     alert(

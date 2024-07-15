@@ -23,14 +23,12 @@
         </div>
       </article>
       <article class="flex-auto md:w-3/12 pe-3 mb-10">
-        <h4 class="uppercase mb-5 text-sm font-bold">Hot categories</h4>
+        <h4 class="uppercase mb-5 text-sm font-bold">Categorías Top</h4>
         <div>
           <ul>
-            <li class="mb-2 transition ease-in-out duration-600 hover:translate-x-2"><a class="text-indigo-200 hover:text-white hover:cursor-pointer">Fruits & Vegetables</a></li>
-            <li class="mb-2 transition ease-in-out duration-600 hover:translate-x-2"><a class="text-indigo-200 hover:text-white hover:cursor-pointer">Dairy Products</a></li>
-            <li class="mb-2 transition ease-in-out duration-600 hover:translate-x-2"><a class="text-indigo-200 hover:text-white hover:cursor-pointer">Package Foods</a></li>
-            <li class="mb-2 transition ease-in-out duration-600 hover:translate-x-2"><a class="text-indigo-200 hover:text-white hover:cursor-pointer">Beverage</a></li>
-            <li class="mb-2 transition ease-in-out duration-600 hover:translate-x-2"><a class="text-indigo-200 hover:text-white hover:cursor-pointer">Health & Wellness</a></li>
+            <li v-for="category in hotCategories" :key="category.name" class="mb-2 transition ease-in-out duration-600 hover:translate-x-2">
+              <router-link class="text-indigo-200 hover:text-white hover:cursor-pointer" :to="{ name: 'products'}">{{ category.name }}</router-link>
+            </li>
           </ul>
         </div>
       </article>
@@ -40,15 +38,22 @@
 </template>
 
 <script>
-  import NewsletterSection from './NewsletterSection.vue';
-  export default {
-    name: 'LinksSection',
-    components: {
+import { mapGetters } from 'vuex';
+import NewsletterSection from './NewsletterSection.vue';
+
+export default {
+  name: 'LinksSection',
+  components: {
     NewsletterSection
+  },
+  computed: {
+    ...mapGetters(['categories']),
+    hotCategories() {
+      return this.categories.slice(0, 5);
+    }
   }
-  }
+};
 </script>
 
 <style scoped>
-
 </style>
