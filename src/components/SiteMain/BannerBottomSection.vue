@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="banner-bottom" class=" text-white">
 sección de main - banner inferior
   </div>
 </template>
@@ -11,5 +11,9 @@ sección de main - banner inferior
 </script>
 
 <style scoped>
-
+#banner-bottom {
+  background-image: url('./../../assets/img/banner_bottom_bg.png');
+  background-size:cover;
+  height: 700px;
+}
 </style>

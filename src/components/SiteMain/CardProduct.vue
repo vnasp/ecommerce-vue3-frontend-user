@@ -9,7 +9,7 @@
     </div>
     <div class="inline-flex">
       <div class="w-2/6">
-      <img :src="product.image" class="h-44 w-44 object-contain" :alt="product.name">
+      <img :src="product.image" class="h-44 w-44 object-contain rounded-xl" :alt="product.name">
     </div>
     <div class="flex flex-col items-start flex-1">
       <small class="font-thin">{{ product.size }} g</small>

@@ -2,6 +2,8 @@
   <main class="bg-gris-custom">
     <BannerSection />
     <CategoriesSection class="px-14" />
+    <BannerBottomSection class="px-14" />
+    <TripleBannerSection class="px-14" />
   </main>
 </template>
 
@@ -9,12 +11,16 @@
 import { mapActions } from "vuex"
 import BannerSection from "@/components/SiteMain/BannerSection.vue"
 import CategoriesSection from "@/components/SiteMain/CategoriesSection.vue"
+import TripleBannerSection from "@/components/SiteMain/TripleBannerSection.vue";
+import BannerBottomSection from "@/components/SiteMain/BannerBottomSection.vue";
 
 export default {
   name: "HomeView",
   components: {
     BannerSection,
     CategoriesSection,
+    TripleBannerSection,
+    BannerBottomSection
   },
   methods: {
     ...mapActions(["setCategories"]),

@@ -93,5 +93,6 @@ document.addEventListener('DOMContentLoaded', () => {
 <style scoped>
 #slider {
   background-image: url('./../../assets/img/slider/shape-bg.jpg');
+  background-size:cover;
 }
 </style>

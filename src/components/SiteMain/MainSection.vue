@@ -2,8 +2,8 @@
   <div class="bg-gris-custom">
     <SliderSection />
     <ProductSection />
-    <TripleBannerSection />
     <BannerBottomSection />
+    <TripleBannerSection />
   </div>
 </template>
 
