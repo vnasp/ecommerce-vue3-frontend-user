@@ -65,7 +65,7 @@ export default {
     agregar() {
       let productToAdd = {
         sku: this.product.sku,
-        img: this.product.image_url,
+        img: this.product.image,
         name: this.product.name,
         price: this.product.price,
         quantity: 1

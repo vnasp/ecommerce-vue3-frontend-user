@@ -1,42 +1,37 @@
 <template>
-  <section class="border rounded-4 bg-light p-4">
-    <table class="table bg-light m-2">
-      <thead>
-        <tr>
-          <th scope="col">Imagen</th>
-          <th scope="col">Producto</th>
-          <th scope="col">Precio</th>
-          <th scope="col">Cantidad</th>
-          <th scope="col">SubTotal</th>
-        </tr>
-      </thead>
+  <section class="text-indigo-900">
+    <table>
       <tbody>
         <tr v-for="product in cart" :key="product.sku">
-          <td><img :src="product.img" class="img-fluid img-thumbnail p-0" height=50 width=80 :alt="product.name">
-          </td>
-          <td>{{ product.name }}</td>
-          <td>{{ product.price }}</td>
-          <td>
-            <button type="button" class="btn btn-light shadow-sm rounded-pill mx-1" v-if="editableCount"
-              @click="removeQty(product)"><i class="bi bi-dash"></i></button>
+          <td class="flex flex-row justify-between items-start gap-4">
+            <div>
+              <img :src="product.img" class="img-fluid img-thumbnail p-0" height=50 width=50 :alt="product.name">
+            </div>
+            <div class="flex flex-col">
+              <p class="text-sm fw-medium">{{ product.name }}</p>
+              <p class="text-sm">{{ product.quantity }} x <span class="text-verde-custom">{{ formatPrice(product.price) }}</span></p>
+              <div> <button type="button" class="btn btn-light shadow-sm rounded-pill mx-1" v-if="editableCount"
+              @click="removeQty(product)">-</button>
             {{ product.quantity }}
             <button type="button" class="btn btn-light shadow-sm rounded-pill mx-1" v-if="editableCount"
-              @click="addQty(product)"><i class="bi bi-plus"></i></button>
+              @click="addQty(product)">+</button>
             <button type="button" class="btn btn-danger shadow-sm rounded-pill mx-1" v-if="editableCount"
-              @click="deleteProduct(product)"><i class="bi bi-trash"></i></button>
+              @click="deleteProduct(product)">X</button></div>
+            </div>
           </td>
-          <td>{{ product.total }}</td>
-        </tr>
-        <tr>
-          <td class="text-end fs-3" colspan="6">Total (USD): <strong>${{ cartTotalPrice }}</strong></td>
         </tr>
       </tbody>
     </table>
   </section>
-  <section class="d-flex justify-content-between mt-4">
-    <button v-if="editableCount" class="btn btn-secondary" @click="deleteCart">Vaciar Carrito</button>
+  <section class="text-indigo-900">
+    <hr>
+    <div class="flex flex-row justify-between mt-4">
+      <div>Total:</div>
+      <div class="font-bold">{{ formatPrice(cartTotalPrice) }}</div>
+    </div>
+    <button v-if="editableCount" class="border-2 border-verde-custom rounded-full w-full py-2 my-4 text-verde-custom uppercase text-sm" @click="deleteCart">Vaciar Carrito</button>
     <form v-if="editableCount" @submit.prevent="createOrder">
-      <button class="btn btn-lg btn-primary" type="submit">Pasar por Caja</button>
+      <button class="border-2 border-verde-custom bg-verde-custom rounded-full w-full py-2 text-white uppercase text-sm" type="submit">Pasar por Caja</button>
     </form>
   </section>
 </template>
@@ -88,7 +83,13 @@ export default {
     },
     deleteCart() {
       this.emptyCart();
-    }
+    },
+    formatPrice(value) {
+      return new Intl.NumberFormat('es-CL', {
+        style: 'currency',
+        currency: 'CLP'
+      }).format(value);
+    },
   }
 }
 </script>

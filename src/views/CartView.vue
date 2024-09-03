@@ -1,6 +1,5 @@
 <template>
-  <main class="container pt-5">
-    <h1 class="my-5">Tu Carrito</h1>
+  <main class="container p-5">
     <div class="alert alert-info" role="alert" v-if="productCount < 1">
       ¡Ups! Tu Carrito está vacío.
     </div>

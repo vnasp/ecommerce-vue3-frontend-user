@@ -15,7 +15,7 @@
       </article>
       <article class="flex-auto md:w-5/12 pe-3 mb-10">
         <h4 class="uppercase mb-5 text-sm font-bold">¿Buscas una granja?</h4>
-        <p class="mb-5 text-indigo-200">68 St. Vicent Place, Glasgow, Greater Newyork NH2012, UK.</p>
+        <p class="mb-5 text-indigo-200">Campo 1234, Chile.</p>
         <div class="text-indigo-200">
           <p>Lunes a Viernes: <span class="text-white">8:10 AM – 6:10 PM</span></p>
           <p>Sábado: <span class="text-white">10:10 AM – 06:10 PM</span></p>

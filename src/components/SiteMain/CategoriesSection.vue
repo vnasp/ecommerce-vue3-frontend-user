@@ -1,5 +1,5 @@
 <template>
-  <section class="flex flex-row justify-between items-center gap-4">
+  <section class="flex flex-row justify-between items-center gap-4 mb-20">
     <div v-for="category in categoriesWithCount" :key="category.name" class="flex flex-col items-center bg-white text-indigo-900 rounded-lg w-full py-8">
       <div class="relative group cursor-pointer" @click="filterCategory(category.name)">
         <img :src="category.img" class="rounded-full mb-4 group-hover:brightness-50 transition duration-300" :alt="category.name">
@@ -33,8 +33,12 @@ export default {
   methods: {
     ...mapActions(['setCategories', 'setProducts']),
     filterCategory(category) {
+    if (this.$route.path !== '/productos') {
+      this.$router.push({ path: '/productos', query: { category } });
+    } else {
       this.$emit('filter-category', category);
     }
+  }
   },
   created() {
     this.setCategories()

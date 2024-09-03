@@ -15,20 +15,36 @@
           class="absolute top-1 right-1 inline-flex items-center justify-center h-5 w-5 text-white transform translate-x-1/2 -translate-y-1/2 bg-red-500 rounded-full">{{
             icon.badge }}</span>
       </a>
-      <router-link :to="{ name: 'cart'}" class="rounded-full flex justify-center items-center h-10 w-10 relative bg-amber-100">
+      <a href="#" @click="toggleCart" class="rounded-full flex justify-center items-center h-10 w-10 relative bg-amber-100">
         <font-awesome-icon icon="fa-solid fa-bag-shopping" size="sm" />
         <span :style="{ fontSize: '11px' }" class="absolute top-1 right-1 inline-flex items-center justify-center h-5 w-5 text-white transform translate-x-1/2 -translate-y-1/2 bg-red-500 rounded-full">5</span>
-      </router-link>
+      </a>
+    </div>
+    <!-- Offcanvas -->
+    <div v-if="showCart" class="fixed inset-0 flex justify-end bg-black bg-opacity-50 z-50">
+      <div class="bg-white w-80 h-full">
+        <div class="flex flex-row justify-between items-center bg-gray-200 py-2 px-6">
+          <h3 class="text-indigo-900 font-bold uppercase">Tu Carrito </h3>
+          <button @click="toggleCart" class=" text-gray-600">X</button>
+        </div>
+        <CartView />
+      </div>
     </div>
   </section>
 </template>
 
 <script>
+import CartView from './../../views/CartView.vue';
+
 export default {
   name: 'NavigationSection',
+  components: {
+    CartView
+  },
   data() {
     return {
       brand: "Tienda Online",
+      showCart: false,
       routes: [
         {
           name: "Inicio",
@@ -59,6 +75,11 @@ export default {
       ]
     };
   },
+  methods: {
+    toggleCart() {
+      this.showCart = !this.showCart;
+    }
+  }
 }
 </script>
 

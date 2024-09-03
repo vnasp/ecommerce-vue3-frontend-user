@@ -42,6 +42,10 @@ export default {
   },
   created() {
     this.setProducts();
+    const category = this.$route.query.category;
+    if (category) {
+      this.filterProducts(category);
+    }
   }
 };
 </script>
