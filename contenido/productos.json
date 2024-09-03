@@ -8,7 +8,7 @@
     "size": 500,
     "discount": 200,
     "feature": true,
-    "image": "./contenido/products/1.jpg"
+    "image": "./contenido/products/zanahoria.webp"
   },
   {
     "id": 2,
@@ -19,7 +19,7 @@
     "size": 400,
     "discount": 100,
     "feature": false,
-    "image": "./contenido/products/2.jpg"
+    "image": "./contenido/products/brocoli.webp"
   },
   {
     "id": 3,
@@ -30,7 +30,7 @@
     "size": 300,
     "discount": 150,
     "feature": true,
-    "image": "./contenido/products/3.jpg"
+    "image": "./contenido/products/espinaca.webp"
   },
   {
     "id": 4,
@@ -41,7 +41,7 @@
     "size": 350,
     "discount": 50,
     "feature": false,
-    "image": "./contenido/products/4.jpg"
+    "image": "./contenido/products/lechuga.webp"
   },
   {
     "id": 5,
@@ -52,7 +52,7 @@
     "size": 250,
     "discount": 200,
     "feature": true,
-    "image": "./contenido/products/5.jpg"
+    "image": "./contenido/products/pimenton.webp"
   },
   {
     "id": 6,
@@ -63,7 +63,7 @@
     "size": 400,
     "discount": 100,
     "feature": false,
-    "image": "./contenido/products/6.jpg"
+    "image": "./contenido/products/tomate.webp"
   },
   {
     "id": 7,
@@ -74,7 +74,7 @@
     "size": 500,
     "discount": 150,
     "feature": true,
-    "image": "./contenido/products/7.jpg"
+    "image": "./contenido/products/manzana.webp"
   },
   {
     "id": 8,
@@ -85,7 +85,7 @@
     "size": 600,
     "discount": 100,
     "feature": false,
-    "image": "./contenido/products/8.jpg"
+    "image": "./contenido/products/platano.webp"
   },
   {
     "id": 9,
@@ -96,7 +96,7 @@
     "size": 700,
     "discount": 150,
     "feature": true,
-    "image": "./contenido/products/9.jpg"
+    "image": "./contenido/products/naranja.webp"
   },
   {
     "id": 10,
@@ -107,7 +107,7 @@
     "size": 500,
     "discount": 200,
     "feature": false,
-    "image": "./contenido/products/10.jpg"
+    "image": "./contenido/products/uva.webp"
   },
   {
     "id": 11,
@@ -118,7 +118,7 @@
     "size": 300,
     "discount": 200,
     "feature": true,
-    "image": "./contenido/products/11.jpg"
+    "image": "./contenido/products/fresa.webp"
   },
   {
     "id": 12,
@@ -129,7 +129,7 @@
     "size": 400,
     "discount": 100,
     "feature": false,
-    "image": "./contenido/products/12.jpg"
+    "image": "./contenido/products/kiwi.webp"
   },
   {
     "id": 13,
@@ -140,7 +140,7 @@
     "size": 1000,
     "discount": 300,
     "feature": true,
-    "image": "./contenido/products/13.jpg"
+    "image": "./contenido/products/jugo-naranja.webp"
   },
   {
     "id": 14,
@@ -151,7 +151,7 @@
     "size": 750,
     "discount": 200,
     "feature": false,
-    "image": "./contenido/products/14.jpg"
+    "image": "./contenido/products/batido-fresa.webp"
   },
   {
     "id": 15,
@@ -162,7 +162,7 @@
     "size": 1000,
     "discount": 250,
     "feature": true,
-    "image": "./contenido/products/15.jpg"
+    "image": "./contenido/products/jugo-manzana.webp"
   },
   {
     "id": 16,
@@ -173,7 +173,7 @@
     "size": 800,
     "discount": 300,
     "feature": false,
-    "image": "./contenido/products/16.jpg"
+    "image": "./contenido/products/smoothie-kiwi.webp"
   },
   {
     "id": 17,
@@ -184,7 +184,7 @@
     "size": 1000,
     "discount": 200,
     "feature": true,
-    "image": "./contenido/products/17.jpg"
+    "image": "./contenido/products/jugo-uva.webp"
   },
   {
     "id": 18,
@@ -195,7 +195,7 @@
     "size": 500,
     "discount": 150,
     "feature": true,
-    "image": "./contenido/products/18.jpg"
+    "image": "./contenido/products/pan-integral.webp"
   },
   {
     "id": 19,
@@ -206,7 +206,7 @@
     "size": 200,
     "discount": 100,
     "feature": false,
-    "image": "./contenido/products/19.jpg"
+    "image": "./contenido/products/croissant.webp"
   },
   {
     "id": 20,
@@ -217,7 +217,7 @@
     "size": 400,
     "discount": 150,
     "feature": true,
-    "image": "./contenido/products/20.jpg"
+    "image": "./contenido/products/pan-centeno.webp"
   },
   {
     "id": 21,
@@ -228,7 +228,7 @@
     "size": 300,
     "discount": 100,
     "feature": false,
-    "image": "./contenido/products/21.jpg"
+    "image": "./contenido/products/pan-baguette.webp"
   },
   {
     "id": 22,
@@ -239,7 +239,7 @@
     "size": 300,
     "discount": 150,
     "feature": true,
-    "image": "./contenido/products/22.jpg"
+    "image": "./contenido/products/pan-brioche.webp"
   },
   {
     "id": 23,
@@ -250,7 +250,7 @@
     "size": 200,
     "discount": 200,
     "feature": false,
-    "image": "./contenido/products/23.jpg"
+    "image": "./contenido/products/muffin-arandano.webp"
   },
   {
     "id": 24,
@@ -261,7 +261,7 @@
     "size": 250,
     "discount": 100,
     "feature": true,
-    "image": "./contenido/products/24.jpg"
+    "image": "./contenido/products/galletas-avena.webp"
   },
   {
     "id": 25,
@@ -272,7 +272,7 @@
     "size": 150,
     "discount": 50,
     "feature": false,
-    "image": "./contenido/products/25.jpg"
+    "image": "./contenido/products/chips-papas.webp"
   },
   {
     "id": 26,
@@ -283,7 +283,7 @@
     "size": 100,
     "discount": 150,
     "feature": true,
-    "image": "./contenido/products/26.jpg"
+    "image": "./contenido/products/barra-granola.webp"
   },
   {
     "id": 27,
@@ -294,7 +294,7 @@
     "size": 100,
     "discount": 100,
     "feature": false,
-    "image": "./contenido/products/27.jpg"
+    "image": "./contenido/products/palomitas.webp"
   },
   {
     "id": 28,
@@ -305,7 +305,7 @@
     "size": 200,
     "discount": 200,
     "feature": true,
-    "image": "./contenido/products/28.jpg"
+    "image": "./contenido/products/mix-nueces.webp"
   },
   {
     "id": 29,
@@ -316,7 +316,7 @@
     "size": 150,
     "discount": 100,
     "feature": false,
-    "image": "./contenido/products/29.jpg"
+    "image": "./contenido/products/crackers-queso.webp"
   },
   {
     "id": 30,
@@ -327,7 +327,7 @@
     "size": 1000,
     "discount": 150,
     "feature": true,
-    "image": "./contenido/products/30.jpg"
+    "image": "./contenido/products/leche-entera.webp"
   },
   {
     "id": 31,
@@ -338,7 +338,7 @@
     "size": 1000,
     "discount": 100,
     "feature": false,
-    "image": "./contenido/products/31.jpg"
+    "image": "./contenido/products/leche-descremada.webp"
   },
   {
     "id": 32,
@@ -349,7 +349,7 @@
     "size": 1000,
     "discount": 200,
     "feature": true,
-    "image": "./contenido/products/32.jpg"
+    "image": "./contenido/products/leche-almendras.webp"
   },
   {
     "id": 33,
@@ -360,7 +360,7 @@
     "size": 1000,
     "discount": 150,
     "feature": false,
-    "image": "./contenido/products/33.jpg"
+    "image": "./contenido/products/leche-soya.webp"
   },
   {
     "id": 34,
@@ -371,7 +371,7 @@
     "size": 1000,
     "discount": 100,
     "feature": true,
-    "image": "./contenido/products/34.jpg"
+    "image": "./contenido/products/leche-coco.webp"
   },
   {
     "id": 35,
@@ -382,7 +382,7 @@
     "size": 1000,
     "discount": 200,
     "feature": false,
-    "image": "./contenido/products/35.jpg"
+    "image": "./contenido/products/leche-avena.webp"
   },
   {
     "id": 36,
@@ -393,7 +393,7 @@
     "size": 500,
     "discount": 500,
     "feature": true,
-    "image": "./contenido/products/36.jpg"
+    "image": "./contenido/products/camarones.webp"
   },
   {
     "id": 37,
@@ -404,7 +404,7 @@
     "size": 500,
     "discount": 700,
     "feature": false,
-    "image": "./contenido/products/37.jpg"
+    "image": "./contenido/products/salmon.webp"
   },
   {
     "id": 38,
@@ -415,7 +415,7 @@
     "size": 500,
     "discount": 450,
     "feature": true,
-    "image": "./contenido/products/38.jpg"
+    "image": "./contenido/products/mejillones.webp"
   },
   {
     "id": 39,
@@ -426,7 +426,7 @@
     "size": 500,
     "discount": 600,
     "feature": false,
-    "image": "./contenido/products/39.jpg"
+    "image": "./contenido/products/atun.webp"
   },
   {
     "id": 40,
@@ -437,7 +437,7 @@
     "size": 500,
     "discount": 650,
     "feature": true,
-    "image": "./contenido/products/40.jpg"
+    "image": "./contenido/products/pulpo.webp"
   },
   {
     "id": 41,
@@ -448,6 +448,6 @@
     "size": 500,
     "discount": 550,
     "feature": false,
-    "image": "./contenido/products/41.jpg"
+    "image": "./contenido/products/calamares.webp"
   }
 ]
