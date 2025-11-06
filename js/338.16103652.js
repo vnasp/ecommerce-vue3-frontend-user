@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkecommerce_vue2_frontend_user"]=self["webpackChunkecommerce_vue2_frontend_user"]||[]).push([[338],{92338:(e,n,a)=>{a.r(n),a.d(n,{default:()=>f});var r=a(56768),u={class:"max-w-7xl mx-auto pt-5"},s=(0,r.Lk)("h1",{class:"my-5"},"No hay nada por aquí",-1),c=[s];function o(e,n,a,s,o,t){return(0,r.uX)(),(0,r.CE)("main",u,c)}const t={name:"NotFoundView"};var m=a(71241);const d=(0,m.A)(t,[["render",o]]),f=d}}]);
+//# sourceMappingURL=338.16103652.js.map
