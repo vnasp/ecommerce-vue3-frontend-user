@@ -1,11 +1,11 @@
-import { createRouter, createWebHistory } from "vue-router"
-import HomeView from "../views/HomeView.vue"
+import { createRouter, createWebHistory } from "vue-router";
+import HomeView from "../views/HomeView.vue";
 
 const routes = [
   {
     path: "/",
     name: "home",
-    component: HomeView
+    component: HomeView,
   },
   {
     path: "/productos",
@@ -17,11 +17,6 @@ const routes = [
     path: "/carrito",
     name: "cart",
     component: () => import("./../views/CartView.vue"),
-  },
-  {
-    path: "/pasar-por-caja",
-    name: "checkout",
-    component: () => import("./../views/CheckoutView.vue"),
   },
   {
     path: "/confirmacion/:orderId",
@@ -39,11 +34,11 @@ const routes = [
     name: "notFound",
     component: () => import("./../views/NotFoundView.vue"),
   },
-]
+];
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
-  routes
-})
+  routes,
+});
 
-export default router
+export default router;

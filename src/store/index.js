@@ -1,7 +1,6 @@
 import { createStore } from "vuex";
-import { getProducts, getCategories }  from "@/services/productService";
+import { getProducts, getCategories } from "@/services/productService";
 import getBanners from "@/services/bannerService";
-
 
 export default createStore({
   state: {
@@ -14,9 +13,9 @@ export default createStore({
     banners: (state) => state.banners,
     products: (state) => state.products,
     categories: (state) => state.categories,
-    // Obtener cantidad de productos en el carrito
+    // Obtener cantidad total de unidades en el carrito
     productCount(state) {
-      return state.cart.length;
+      return state.cart.reduce((total, product) => total + product.quantity, 0);
     },
     // Obtener subtotal de un producto
     cartProductTotal(state) {
@@ -33,12 +32,12 @@ export default createStore({
       return state.cart.find((product) => product.sku == sku);
     },
     // Obtener monto total del pedido
-    cartTotalPrice(state, getters){
-      let totalPrice = getters.cartProductTotal.reduce((total, product)=>{
-        return total+ Number(product.total)
-      }, 0)
-      return parseFloat(totalPrice).toFixed(2)
-    }
+    cartTotalPrice(state, getters) {
+      let totalPrice = getters.cartProductTotal.reduce((total, product) => {
+        return total + Number(product.total);
+      }, 0);
+      return parseFloat(totalPrice).toFixed(2);
+    },
   },
   mutations: {
     // Asignación de valor de a a
@@ -58,7 +57,7 @@ export default createStore({
     ADD_QUANTITY_TO_PRODUCT(state, sku) {
       let index = state.cart.findIndex((product) => product.sku == sku);
       state.cart[index].quantity += 1;
-  },
+    },
     REMOVE_QUANTITY_FROM_PRODUCT(state, sku) {
       let index = state.cart.findIndex((product) => product.sku == sku);
       state.cart[index].quantity -= 1;
@@ -76,7 +75,7 @@ export default createStore({
     async setBanners({ commit }) {
       try {
         let data = await getBanners();
-        commit("SET_BANNERS",data);
+        commit("SET_BANNERS", data);
       } catch (error) {
         console.log(error);
       }
@@ -106,12 +105,12 @@ export default createStore({
         commit("ADD_QUANTITY_TO_PRODUCT", product.sku);
       }
     },
-    addQuantityToProduct({commit, getters}, product){
-      let found = getters.findProductBySku(product.sku)
-      if(found){
-        commit('ADD_QUANTITY_TO_PRODUCT', product.sku)
+    addQuantityToProduct({ commit, getters }, product) {
+      let found = getters.findProductBySku(product.sku);
+      if (found) {
+        commit("ADD_QUANTITY_TO_PRODUCT", product.sku);
       } else {
-        throw 'Producto no encontrado dentro del carro.'
+        throw "Producto no encontrado dentro del carro.";
       }
     },
     removeQuantityFromProduct({ commit, getters }, product) {

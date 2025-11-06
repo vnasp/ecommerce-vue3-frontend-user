@@ -1,5 +1,8 @@
-const { defineConfig } = require('@vue/cli-service')
+const { defineConfig } = require("@vue/cli-service");
 module.exports = defineConfig({
-  /*publicPath: "/ecommerce-vue3-frontend-user/",*/
-  transpileDependencies: true
-})
+  publicPath:
+    process.env.NODE_ENV === "production"
+      ? "/ecommerce-vue3-frontend-user/"
+      : "/",
+  transpileDependencies: true,
+});
